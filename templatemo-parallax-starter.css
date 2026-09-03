@@ -580,7 +580,7 @@ img {
     .about-cols {
         grid-template-columns: 1fr;
         gap: 30px;
-        text-align: center;
+        text-align: left;
     }
 
     .stats-row {
