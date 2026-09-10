@@ -186,6 +186,59 @@
 	
         </div>
     </section>
+	
+	
+	
+	<script language=javascript>
+		function mostra_div1(){
+			document.getElementById("div1").style.display = "block";		
+			document.getElementById("div2").style.display = "none";		
+			document.getElementById("div3").style.display = "none";		
+			document.getElementById("div4").style.display = "none";		
+			document.getElementById("div5").style.display = "none";		
+			document.getElementById("div6").style.display = "none";		
+		}	
+		function mostra_div2(){
+			document.getElementById("div2").style.display = "block";		
+			document.getElementById("div1").style.display = "none";		
+			document.getElementById("div3").style.display = "none";		
+			document.getElementById("div4").style.display = "none";		
+			document.getElementById("div5").style.display = "none";		
+			document.getElementById("div6").style.display = "none";		
+		}	
+		function mostra_div3(){
+			document.getElementById("div3").style.display = "block";		
+			document.getElementById("div2").style.display = "none";		
+			document.getElementById("div1").style.display = "none";		
+			document.getElementById("div4").style.display = "none";		
+			document.getElementById("div5").style.display = "none";		
+			document.getElementById("div6").style.display = "none";		
+		}	
+		function mostra_div4(){
+			document.getElementById("div4").style.display = "block";		
+			document.getElementById("div2").style.display = "none";		
+			document.getElementById("div3").style.display = "none";		
+			document.getElementById("div1").style.display = "none";		
+			document.getElementById("div5").style.display = "none";		
+			document.getElementById("div6").style.display = "none";		
+		}	
+		function mostra_div5(){
+			document.getElementById("div5").style.display = "block";		
+			document.getElementById("div2").style.display = "none";		
+			document.getElementById("div3").style.display = "none";		
+			document.getElementById("div4").style.display = "none";		
+			document.getElementById("div1").style.display = "none";		
+			document.getElementById("div6").style.display = "none";		
+		}	
+		function mostra_div6(){
+			document.getElementById("div6").style.display = "block";		
+			document.getElementById("div2").style.display = "none";		
+			document.getElementById("div3").style.display = "none";		
+			document.getElementById("div4").style.display = "none";		
+			document.getElementById("div5").style.display = "none";		
+			document.getElementById("div1").style.display = "none";		
+		}	
+	</script>
 
     <!-- Section 4: Gallery -->
     <section id="gallery" class="parallax-section">
@@ -206,7 +259,15 @@
 				<div align=left class="filho">				
 				<img src=images/software.png width=10% height=10%>
                 <p><h1>ERP - Gestão de Empresas</h1></p>
-                <p><h3>Uma plataforma completa, inteligente e integrada que coloca o controle total da sua empresa na palma da sua mão. Por que o nosso ERP é o parceiro ideal para o seu negócio?Integração Total: Conecte Vendas, Estoque, Financeiro, Compras e Faturamento em um único lugar.<br><br>Diga adeus ao retrabalho.<br><br>Automatização Inteligente: <br>Emita notas fiscais, boletos e relatórios financeiros com poucos cliques, reduzindo erros humanos a zero.<br><br>Decisões Baseadas em Dados: <br>Acesse dashboards atualizados em tempo real. Saiba exatamente qual é a sua margem de lucro, quais produtos têm maior saída e como está a saúde do seu fluxo de caixa.<br><br>Segurança e Nuvem:<br>Acesse as informações da sua empresa de onde estiver, a qualquer hora, com dados protegidos pelos mais rigorosos protocolos de segurança.<br><br>Escalabilidade: <br>Nosso sistema acompanha o ritmo do seu crescimento. Adicione novos módulos e usuários à medida que a sua operação expande.</h3></p>
+                <p><h4>Uma plataforma completa, inteligente e integrada que coloca o controle total da sua empresa na palma da sua mão. 
+				Por que o nosso ERP é o parceiro ideal para o seu negócio?
+				<br>
+				<br>
+				<a href="javascript:mostra_div1();"><img src=images/inf.png width=2% height=2%> Clique AQUI , e leia mais sobre nosso Sistema ERP</h4></a>
+				<br>
+					<div id="div1"  name="div1" style="display: none;">
+						<h4>Integração Total: Conecte Vendas, Estoque, Financeiro, Compras e Faturamento em um único lugar.<br><br>Diga adeus ao retrabalho.<br><br>Automatização Inteligente: <br>Emita notas fiscais, boletos e relatórios financeiros com poucos cliques, reduzindo erros humanos a zero.<br><br>Decisões Baseadas em Dados: <br>Acesse dashboards atualizados em tempo real. Saiba exatamente qual é a sua margem de lucro, quais produtos têm maior saída e como está a saúde do seu fluxo de caixa.<br><br>Segurança e Nuvem:<br>Acesse as informações da sua empresa de onde estiver, a qualquer hora, com dados protegidos pelos mais rigorosos protocolos de segurança.<br><br>Escalabilidade: <br>Nosso sistema acompanha o ritmo do seu crescimento. Adicione novos módulos e usuários à medida que a sua operação expande.</h4>
+					</div>
 				</div>
 
 				<br>
@@ -216,46 +277,87 @@
 				<div align=left class="filho">				
 				<img src=images/factory.png width=10% height=10%>
                 <p><h1>PCP - Gestão de Produção</h1></p>
-                <p><h3>Pare de Perder Dinheiro na Fábrica: Domine Sua Produção com o Nosso Sistema de PCP<br>Você já parou para calcular quanto a sua indústria perde por falta de sincronia no chão de fábrica?<br><br>Paradas de máquinas inesperadas, atrasos na entrega ao cliente, matéria-prima vencendo no estoque ou faltante na hora mais crítica. Gerenciar uma fábrica usando planilhas complexas ou anotações em papel é como tentar pilotar um avião às cegas: um erro custa caro.<br><br>Chegou a hora de transformar o caos da sua produção em um processo previsível, enxuto e altamente lucrativo. Nosso software de PCP desenvolvido para quem busca eficiência máxima e desperdício zero.<br><br>Planejamento inteligente: <br>Crie ordens de produção automáticas com base na sua demanda real e otimize a capacidade das suas máquinas.<br><br>Controle de estoque preciso: <br>Saiba exatamente o que comprar e quando comprar. Evite capital parado ou a falta de insumos na linha de montagem.<br><br>Apontamento em tempo real: <br>Esqueça o atraso dos relatórios em papel. Acompanhe a produtividade do chão de fábrica no exato momento em que as coisas acontecem.<br><br>Rastreabilidade total: <br>Localize qualquer lote de produto ou matéria-prima em segundos, garantindo conformidade com as normas de qualidade.<br><br>Custo real de produção: <br>Descubra a margem de lucro exata de cada produto fabricado eliminando os custos ocultos.</h3></p>
+                <p><h4>Pare de Perder Dinheiro na Fábrica: Domine Sua Produção com o Nosso Sistema de PCP<br>Você já parou para calcular quanto a sua indústria perde por falta de sincronia no chão de fábrica?<br><br>Paradas de máquinas inesperadas, atrasos na entrega ao cliente, matéria-prima vencendo no estoque ou faltante na hora mais crítica. Gerenciar uma fábrica usando planilhas complexas ou anotações em papel é como tentar pilotar um avião às cegas: um erro custa caro.	</p>
+				<br>
+				<a href="javascript:mostra_div2();"><img src=images/inf.png width=2% height=2%> Clique AQUI , e leia mais sobre nosso Sistema PCP</h4></a>
+				<br>
+				<div id="div2"  name="div2" style="display: none;">
+					<h4>Chegou a hora de transformar o caos da sua produção em um processo previsível, enxuto e altamente lucrativo. Nosso software de PCP desenvolvido para quem busca eficiência máxima e desperdício zero.<br><br>Planejamento inteligente: <br>Crie ordens de produção automáticas com base na sua demanda real e otimize a capacidade das suas máquinas.<br><br>Controle de estoque preciso: <br>Saiba exatamente o que comprar e quando comprar. Evite capital parado ou a falta de insumos na linha de montagem.<br><br>Apontamento em tempo real: <br>Esqueça o atraso dos relatórios em papel. Acompanhe a produtividade do chão de fábrica no exato momento em que as coisas acontecem.<br><br>Rastreabilidade total: <br>Localize qualquer lote de produto ou matéria-prima em segundos, garantindo conformidade com as normas de qualidade.<br><br>Custo real de produção: <br>Descubra a margem de lucro exata de cada produto fabricado eliminando os custos ocultos.</h4>				
+				</div>				
 				</div>
 
 				<br>
 				<br>
-								
+				
 				<div align=left class="filho">				
 				<img src=images/medical.png width=10% height=10%>
                 <p><h1>SAÚDE - Gestão Hospitalar</h1></p>
-                <p><h3>O software de saúde definitivo que integra a eficiência operacional ao cuidado com o paciente.<br>No cenário atual da saúde, gerenciar uma instituição hospitalar exige precisão diária, decisões rápidas e zero margem de erro. <br> Nosso sistema de Gestão de Saúde é uma plataforma médica completa e inteligente, desenvolvida para centralizar todas as operações da sua unidade, desde o primeiro atendimento na recepção até o faturamento final.Com nossa tecnologia, seu hospital ganha em produtividade e segurança<br><br>Prontuário Eletrônico (PEP) Avançado:<br> Histórico clínico completo, receitas digitais e evolução do paciente acessíveis em poucos cliques.<br><br>Gestão de Leitos em Tempo Real:<br> Painel visual para controle instantâneo de ocupação, altas, higienização e transferências.<br><br>Faturamento Sem Glosas:<br> Automatização de regras de convênios e SUS que reduzem erros de cobrança e aceleram o retorno financeiro.<br><br>Estoque e Farmácia Inteligentes: <br>Rastreabilidade total de medicamentos e insumos, evitando desperdícios e desabastecimentos.<br><br>BI e Relatórios Estratégicos:<br> Indicadores de desempenho hospitalar atualizados para apoiar decisões da diretoria.Diminua as filas de espera, reduza a sobrecarga da sua equipe e garanta a total conformidade com as normas da Anvisa e LGPD. Deixe que a tecnologia cuide da burocracia para que o seu corpo clínico foque no que realmente importa: salvar vidas.</h3></p>
+                <p><h4>O software de saúde definitivo que integra a eficiência operacional ao cuidado com o paciente.<br>No cenário atual da saúde, gerenciar uma instituição hospitalar exige precisão diária, decisões rápidas e zero margem de erro. <br> Nosso sistema de Gestão de Saúde é uma plataforma médica completa e inteligente, desenvolvida para centralizar todas as operações da sua unidade, desde o primeiro atendimento na recepção até o faturamento final.Com nossa tecnologia, seu hospital ganha em produtividade e segurança.</h4></p>
+				<br>				
+				<a href="javascript:mostra_div3();"><img src=images/inf.png width=2% height=2%> Clique AQUI , e leia mais sobre nosso Sistema SAÚDE</h4></a>
+				<br>
+					<div id="div3"  name="div3" style="display: none;">
+						<h4>Prontuário Eletrônico (PEP) Avançado:<br> Histórico clínico completo, receitas digitais e evolução do paciente acessíveis em poucos cliques.<br><br>Gestão de Leitos em Tempo Real:<br> Painel visual para controle instantâneo de ocupação, altas, higienização e transferências.<br><br>Faturamento Sem Glosas:<br> Automatização de regras de convênios e SUS que reduzem erros de cobrança e aceleram o retorno financeiro.<br><br>Estoque e Farmácia Inteligentes: <br>Rastreabilidade total de medicamentos e insumos, evitando desperdícios e desabastecimentos.<br><br>BI e Relatórios Estratégicos:<br> Indicadores de desempenho hospitalar atualizados para apoiar decisões da diretoria.Diminua as filas de espera, reduza a sobrecarga da sua equipe e garanta a total conformidade com as normas da Anvisa e LGPD. Deixe que a tecnologia cuide da burocracia para que o seu corpo clínico foque no que realmente importa: salvar vidas.</h4>
+					</div>				
 				</div>
 
 				<br>
 				<br>
-				
+
+
 				<div align=left class="filho">				
 				<img src=images/financial.png width=10% height=10%>
                 <p><h1>INTEGRA - Hub de Integração</h1></p>
-                <p><h3>Chega de perder vendas e tempo atualizando estoque manualmente em sistemas diferentes.<br><br>Se a sua operação parece um caos — com faturamento travado, erros de digitação e a constante dor de cabeça de vender o que não tem no estoque —, você precisa de uma única solução: o nosso Hub de Integração definitivo.<br>Imagine conectar seu sistema e de terceiros em uma única tela centralizada. <br>O nosso sistema automatiza os processos mais complexos do seu dia a dia para você focar apenas no que importa, crescer.<br><br> O que o nosso Hub de Integração faz por você:<br><br>Sincronização de Estoque em Tempo Real:<br> Atualização automaticamente entre banco de dados e sistemas diferentes. Zero furos de dados.<br><br>Centralização de Informações:<br> Receba, envie e acompanhe todos os dados de canais diferentes em um único painel.<br><br>Cadastro de Informações em Massa:<br> Cadastre todos os dados de uma vez e envie para múltiplos canais com apenas alguns cliques.<br>Logística Inteligente: Impressões em lote e atualização automática do informações para o cliente final.</h3></p>
+                <p><h4>Chega de perder vendas e tempo atualizando estoque manualmente em sistemas diferentes.<br><br>Se a sua operação parece um caos — com faturamento travado, erros de digitação e a constante dor de cabeça de vender o que não tem no estoque —, você precisa de uma única solução: o nosso Hub de Integração definitivo.<br>Imagine conectar seu sistema e de terceiros em uma única tela centralizada. <br>O nosso sistema automatiza os processos mais complexos do seu dia a dia para você focar apenas no que importa, crescer.</h4></p>
+				<br>			
+				<a href="javascript:mostra_div4();"><img src=images/inf.png width=2% height=2%> Clique AQUI , e leia mais sobre nosso Sistema INTEGRA</h4></a>
+				<br>
+					<div id="div4"  name="div4" style="display: none;">
+						<h4>O que o nosso Hub de Integração faz por você:<br><br>Sincronização de Estoque em Tempo Real:<br> Atualização automaticamente entre banco de dados e sistemas diferentes. Zero furos de dados.<br><br>Centralização de Informações:<br> Receba, envie e acompanhe todos os dados de canais diferentes em um único painel.<br><br>Cadastro de Informações em Massa:<br> Cadastre todos os dados de uma vez e envie para múltiplos canais com apenas alguns cliques.<br>Logística Inteligente: Impressões em lote e atualização automática do informações para o cliente final.</h4>
+					</div>				
 				</div>
 
 				<br>
 				<br>
 				
+				
+
 				<div align=left class="filho">				
-				<img src=images/houses.png width=10% height=10%>
-                <p><h1>RCONTROL - Acesso Remoto</h1></p>
-                <p><h3>Se a sua empresa ainda depende de computadores físicos e redes locais rígidas, você está perdendo produtividade, agilidade e dinheiro.Conheça o nosso Sistema de Acesso Remoto: a solução definitiva para conectar o seu negócio ao futuro.<br><br> Por que escolher o nosso sistema?<br><br>Produtividade sem barreiras: Acesse sistemas, arquivos e softwares pesados da empresa de qualquer dispositivo (notebook, tablet ou celular), de qualquer lugar do mundo.<br><br>Segurança de nível bancário: Seus dados protegidos por criptografia de ponta a ponta, autenticação em duas etapas (2FA) e controle de permissões por usuário.<br><br>Velocidade e estabilidade: <br>Conexões fluidas e de baixa latência, garantindo que o seu trabalho flua sem travamentos ou lentidão.<br><br>Suporte técnico simplificado: <br>Sua equipe de TI pode resolver problemas nos computadores dos funcionários instantaneamente, sem precisar de deslocamento.<br><br>Redução de custos: <br>Economize com infraestrutura física, servidores locais complexos e custos de transporte. Segurança em primeiro lugar. Sabemos que abrir a rede da sua empresa para acessos externos gera preocupação. É por isso que o nosso sistema foi desenhado sob o conceito de Zero Trust (Confiança Zero). Cada conexão é verificada, monitorada e criptografada, garantindo que apenas as pessoas certas tenham acesso aos dados certos. Ideal para qualquer tamanho de negócioSeja para uma equipe de suporte de TI, contadores, agências de marketing ou grandes corporações com modelo híbrido de trabalho.<br>Nossa plataforma é escalável e se adapta perfeitamente à sua realidade atual.</h3></p>
+					<img src=images/financial.png width=10% height=10%>
+					<p><h1>RCONTROL - Acesso Remoto</h1></p>
+					<p><h4>Chega de perder vendas e tempo atualizando estoque manualmente em sistemas diferentes.<br><br>Se a sua operação parece um caos — com faturamento travado, erros de digitação e a constante dor de cabeça de vender o que não tem no estoque —, você precisa de uma única solução: o nosso Hub de Integração definitivo.<br>Imagine conectar seu sistema e de terceiros em uma única tela centralizada. <br>O nosso sistema automatiza os processos mais complexos do seu dia a dia para você focar apenas no que importa, crescer.</h4></p>
+					<br>
+					<a href="javascript:mostra_div5();"><img src=images/inf.png width=2% height=2%> Clique AQUI , e leia mais sobre nosso Sistema RCONTROL</h4></a>
+					<br>
+					<div id="div5"  name="div5" style="display: none;">
+						<h4>O que o nosso Hub de Integração faz por você:<br><br>Sincronização de Estoque em Tempo Real:<br> Atualização automaticamente entre banco de dados e sistemas diferentes. Zero furos de dados.<br><br>Centralização de Informações:<br> Receba, envie e acompanhe todos os dados de canais diferentes em um único painel.<br><br>Cadastro de Informações em Massa:<br> Cadastre todos os dados de uma vez e envie para múltiplos canais com apenas alguns cliques.<br>Logística Inteligente: Impressões em lote e atualização automática do informações para o cliente final.</h4>
+					</div>				
+								
 				</div>
 
 				<br>
 				<br>
 
+
+				
 				<div align=left class="filho">				
-				<img src=images/ia.png width=10% height=10%>
+				<img src=images/financial.png width=10% height=10%>
                 <p><h1>IA - Inteligência Artificial</h1></p>
-                <p><h3>O seu negócio no piloto automático: multiplique vendas e feche negócios 24 horas por dia.<br><br>Cansado de perder clientes fora do horário comercial ou de deixar leads esperando no chat?O tempo de resposta é o que define quem vende e quem perde espaço para a concorrência. Enquanto sua equipe descansa, os melhores clientes estão navegando, pesquisando e decidindo agora. <br><br>Se eles não forem atendidos na hora, vão comprar do concorrente.<br>Conheça nosso sistema de IA, a inteligência artificial definitiva que transforma o atendimento e o comercial da sua empresa em uma máquina de vendas automática.<br><br>O que o nosso sistema faz por você: <br><br>Atendimento Instantâneo 24/7: <br>Responde dúvidas, qualifica o lead e direciona o cliente ideal direto para o seu time ou para o fechamento.<br><br>Personalização em Escala: <br>Analisa o comportamento de cada contato e envia mensagens sob medida, aumentando o interesse e o desejo de compra. <br><br>Zero Fila de Espera: <br>Capta e atende centenas de pessoas ao mesmo tempo, sem perder o tom humano e natural. </h3></p>
-				
+				<p><h4>O seu negócio no piloto automático: multiplique vendas e feche negócios 24 horas por dia.<br><br>Cansado de perder clientes fora do horário comercial ou de deixar leads esperando no chat?O tempo de resposta é o que define quem vende e quem perde espaço para a concorrência. Enquanto sua equipe descansa, os melhores clientes estão navegando, pesquisando e decidindo agora.</h4></p>
+				<br>
+				<a href="javascript:mostra_div6();"><img src=images/inf.png width=2% height=2%> Clique AQUI , e leia mais sobre nosso Sistema IA</h4></a>
+				<br>
+					<div id="div6"  name="div6" style="display: none;">
+						<h4>Se eles não forem atendidos na hora, vão comprar do concorrente.<br>Conheça nosso sistema de IA, a inteligência artificial definitiva que transforma o atendimento e o comercial da sua empresa em uma máquina de vendas automática.<br><br>O que o nosso sistema faz por você: <br><br>Atendimento Instantâneo 24/7: <br>Responde dúvidas, qualifica o lead e direciona o cliente ideal direto para o seu time ou para o fechamento.<br><br>Personalização em Escala: <br>Analisa o comportamento de cada contato e envia mensagens sob medida, aumentando o interesse e o desejo de compra. <br><br>Zero Fila de Espera: <br>Capta e atende centenas de pessoas ao mesmo tempo, sem perder o tom humano e natural. </h4>
+					</div>				
+								
+				</div>
+
 				<br>
 				<br>
+
+
+
 				</div>
      
         </div>
