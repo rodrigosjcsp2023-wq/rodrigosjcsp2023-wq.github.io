@@ -422,31 +422,6 @@
 
           </div>
 
-          <div class="col-lg-7">
-         
-         
-               <form action="contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Nome" >
-                </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
-                </div>
-              </div>
-         
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Mensagem" ></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading" style="visibility: hidden;">Loading</div>
-                 <div class="error-message" style="visibility: hidden;"></div>
-                 <div class="sent-message" style="visibility: hidden;">Message Sent.</div>
-              </div>
-              <div class=text-center><button type=submit onclick=portugues(form.email.value);>Enviar</button></div>
-         
-         
-          </div><!-- End Contact Form -->
          
         </div>
 
@@ -497,46 +472,6 @@
 
 
 
-
-
-
-
-	
-
-	<script language=javascript>
-		function portugues(x)
-		{
-			if (x != '')
-			{
-				alert('Contato Efetuado Com Sucesso.  Em Breve um de nossos Analistas entrará em contato com Você.');
-			        window.location.replace("https://softbless.com.br");
-			}		
-		}
-
-
-		function english(x)
-		{
-			if (x != '')
-			{
-				alert('Contact Done. One of our analysts will contact you shortly.');
-				location.hash = "#hero" ;
-				location.href = "#hero" ;
-			}		
-		}
-
-
-		function spanish(x)
-		{
-			if (x != '')
-			{
-				alert('Contacto Listo. Uno de nuestros analistas se comunicará con usted en breve.');
-				location.hash = "#hero" ;
-				location.href = "#hero" ;
-			}		
-		}
-		
-		
-	</script>
 
 
 
